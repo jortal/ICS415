@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>[ICS415: A05] - Forms</title>
+  <style type="text/css">
+ 	
+	html { height: 100%; }
+	
+    body { 
+      font-family:Verdana, sans-serif;
+      margin:0; padding:0; 
+      height: 100%;
+    }
+
+    .head {     
+      height:25%; width:100%;
+	  margin: 0; padding: 0;
+      background-color: #4EB1BA;
+    }
+ 
+    .head:before { content: '';display:inline-block;vertical-align:middle;height:100%; }
+	
+	.centered { display:inline-block;vertical-align:middle; }
+ 
+    .navbar {
+	  height:50px;
+	  background-color: #222930;
+	  content: '';
+	  color: white;
+	  vertical-align: middle;	  
+	  border-bottom:2px solid black;
+	}
+	
+	.navbar a:link { color: white; }
+	.navbar a:visited { color: white; }
+	
+	.sidebar {
+	  width: 25%; 
+	  background-color: white;
+	  float:left;	  
+	}
+	
+	.main {
+	  height:65%;
+	  overflow:hidden;
+	  background-color: white;
+	  border-left:2px solid black;
+	}  
+	  
+	.footer {
+	  background-color: #B2CCCC;
+	  height: 50px;
+	  bottom:0;
+	  font-size:11px;
+	}
+
+  </style>
+</head>
+
+<body>
+
+<header class="head">
+  <h1 class="centered">[ICS415: A05] - forms.html</h1>
+</header>
+
+<nav class="navbar" style="border-top:2px solid black;border-bottom:2px solid black;">
+  <nav class="centered" style="margin-top:15px;margin-left:5px">
+    <a href="home.html">Home</a> | <a href="forms.html">Forms</a>
+  </nav>
+</nav>
+
+<aside class="sidebar">
+  <aside class="centered" style="margin-top:5px;margin-left:5px;">
+  <b>Summary Window</b>
+  <br><br>
+  <b>Forms Summary</b>
+  <br><br>
+  HTML5 forms support several different types of input.
+  </aside>
+</aside>
+
+<section class="main">
+  <section class="centered" style="margin-top:5px;margin-left:5px;">
+
+ 	<b>HTML5 Forms Page</b>				  
+	<br><br>
+	The following are input types added in HTML5:
+	<br><br>
+	<form name="input" action="forms.html" method="get">
+	Color: <input type="color" name="color">
+	
+	<br>
+	Date: <input type="date" name="date">
+	<br>
+
+	Datetime: <input type="datetime" name="datetime">
+	<br>
+	
+	E-mail: <input type="email" name="email">
+	
+	<br>
+	Month: <input type="month" name="month">
+	<br>
+	
+	Number: <input type="number" name="number">
+	
+	<br>
+	Range: <input type="range" name="range">
+	<br>
+	
+	Search: <input type="search" name="search">
+	<br>
+	
+	URL: <input type="url" name="url">
+
+	<br><br>
+	<input type="submit" value="Submit">
+	
+	</form>
+
+  </section>
+
+</section>
+
+<footer class="footer" style="text-align:center;border-top:2px solid black;width:100%;">
+  <footer class="centered" style="margin-top:19px;">
+    <b>Copyright (C) Jon Ortal</b>
+  </footer>
+</footer>
+
+</body>
+
+</html>
