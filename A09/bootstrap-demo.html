@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<!-- disables iphone scaling -->
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+<title>[ICS 415: A09]: Bootstrap Responsive Web Design Project</title>
+
+<!-- main css -->
+<link href="./css/bootstrap-theme.min.css" rel="stylesheet"
+	type="text/css">
+
+<!-- media queries css -->
+<link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+<!-- html5.js for IE less than 9 -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<style>
+body {
+  background: #0d1424 url(images/body-bg.jpg) no-repeat center top;
+  color: #666;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: #026acb;
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  background: #fff;
+}
+
+.navbar .collapse ul a:hover {
+  background: #474747;
+  color: #fff;
+}
+
+.widget .flickr_badge_image {
+  margin-top: 10px;
+}
+
+.widget .flickr_badge_image img {
+  width: 48px;
+  height: 48px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  float: left;
+}
+</style>
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<header class="row">
+
+			<hgroup style="color: #fff">
+				<h1>
+					<a href="https://github.com/jortal/ICS415/tree/master/A09" style="color: #fff">[ICS 415: A09]</a>
+				</h1>
+				<h2 style="font-size: 14px;">
+					<i>Bootstrap Responsive Web Design Project</i>
+				</h2>
+			</hgroup>
+
+			<nav class="navbar navbar-default" role="navigation"
+				style="background: #6a6a6a">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse"
+						data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span> <span
+							class="icon-bar"></span> <span class="icon-bar"></span> <span
+							class="icon-bar"></span>
+					</button>
+					<a style="color: #fff" class="navbar-brand" href="#">[Navbar] </a>
+				</div>
+
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav">
+						<li><a style="color: #fff" href="http://webdesignerwall.com">Home</a></li>
+						<li><a style="color: #fff" href="http://themify.me">Themify</a></li>
+						<li><a style="color: #fff" href="http://icondock.com">IconDock</a></li>
+						<li><a style="color: #fff" href="http://ndesign-studio.com">N.Design</a></li>
+					</ul>
+					<form class="navbar-form navbar-right" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Submit</button>
+					</form>
+				</div>
+
+			</nav>
+
+		</header>
+		<!-- /#header -->
+
+		<div class="row">
+
+			<div class="col-md-7 content img-rounded">
+
+				<header>
+					<h1>
+						<a style="color: #000;" href="#">Just a Post Title</a>
+					</h1>
+					<p>
+						<time class="post-date" datetime="2011-05-08" pubdate>May
+							8, 2011</time>
+						<em>in</em> <a href="#">Category</a>
+					</p>
+				</header>
+				<figure style="margin: 0 0 15px;">
+					<img src="images/sample-image.jpg" class="img-responsive">
+				</figure>
+				<p>Fusce ut sem est. In eu sagittis felis. In gravida arcu ut
+					neque ornare vitae rutrum turpis vehicula. Nunc ultrices sem mollis
+					metus rutrum non malesuada metus fermentum. Vestibulum ante ipsum
+					primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+					Pellentesque interdum rutrum quam, a pharetra est pulvinar ac.
+					Vestibulum congue nisl magna. Ut vulputate odio id dui convallis in
+					adipiscing libero condimentum. Nunc et pharetra enim. Praesent
+					pharetra, neque et luctus tempor, leo sapien faucibus leo, a
+					dignissim turpis ipsum sed libero. Sed sed luctus purus. Aliquam
+					faucibus turpis at libero consectetur euismod. Nam nunc lectus,
+					congue non egestas quis, condimentum ut arcu. Nulla placerat,
+					tortor non egestas rutrum, mi turpis adipiscing dui, et mollis
+					turpis tortor vel orci. Cras a fringilla nunc. Suspendisse
+					volutpat, eros congue scelerisque iaculis, magna odio sodales dui,
+					vitae vulputate elit metus ac arcu. Mauris consequat rhoncus dolor
+					id sagittis. Cras tortor elit, aliquet quis tincidunt eget,
+					dignissim non tortor.</p>
+
+			</div>
+			<!-- /.post -->
+
+			<!-- /#content -->
+
+			<div class="col-md-1"></div>
+
+			<div class="col-md-4">
+				<div class="row">
+					<section class="content img-rounded"
+						style="margin: 0 0 30px; padding: 20px 30px">
+						<h4 style="color: #000">Sidebar</h4>
+						<ul class="list-group">
+							<li class="list-group-item"><a href="#">WordPress</a> <span
+								class="badge">(3)</span></li>
+							<li class="list-group-item"><a href="#">Design</a> <span
+								class="badge">(23)</span></li>
+							<li class="list-group-item"><a href="#">Design </a> <span
+								class="badge">(18)</span></li>
+						</ul>
+					</section>
+					<!-- /.widget -->
+				</div>
+				<div class="row">
+					<section class="content img-rounded clearfix widget"
+						style="margin: 0 0 30px; padding: 20px 30px;">
+						<h4 style="color: #000">Flickr</h4>
+						<script type="text/javascript"
+							src="http://www.flickr.com/badge_code_v2.gne?count=8.&display=latest&size=s&layout=x&source=user&user=52839779@N02"></script>
+					</section>
+					<!-- /.widget -->
+				</div>
+			</div>
+			<!-- /#sidebar -->
+
+		</div>
+		<!-- /#row -->
+
+		<footer class="row" style="margin-top: 10px">
+
+			<p style="color: white">
+				Tutorial by <a style="color: white"
+					href="http://webdesignerwall.com">Web Designer Wall</a>
+			</p>
+
+		</footer>
+		<!-- /#footer -->
+	</div>
+	<!-- /#pagewrap -->
+
+	<!-- bootstrap compiled plugins -->
+	<script src="//code.jquery.com/jquery.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+
+</body>
+</html>
