@@ -1,0 +1,5 @@
+A10: Playing with JavaScript and jsFiddle.net
+One .html file and one .js file that does all three parts to the assignment.
+Part one: Function getClasses(elem) returns the classes of an HTML element.
+Part two: Function addClass(elem, className) adds a class to an HTML element.
+Part three: Form valdiation example.

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ICS415 A10: Playing with JavaScript and jsFiddle</title>
+</head>
+<body>
+	<p id="demo0" class="foo bar">
+		Part 1: getClasses(elem)<br>Return the class of an HTML element
+		as an array. <br>Takes the element tag as an argument and returns
+		the class name.
+	</p>
+	<button type="button"
+		onClick="getClasses(document.getElementsByTagName('p'))"
+		style="margin-bottom: 10px">getClasses(elem) of this p
+		element</button>
+	<br>
+	<div id="partOne"></div>
+	<p id="demo2" class="foo bar">
+		Part 2: addClass(elem, className) <br>Adds a class to the
+		element, if it doesn't exist.
+	</p>
+	<button type="button"
+		onClick="addClass(document.getElementsByTagName('p'),'moo')"
+		style="margin-bottom: 10px">Adds class moo to the p element</button>
+	<div id="partTwo"></div>
+	<br>
+	<form name="myForm" action="jsexample.html"
+		onsubmit="return validateForm()" method="post">
+		Username: <input type="text" name="name"> <br /> Email: <input
+			type="text" name="email"><br /> Password: <input type="text"
+			name="password"><br /> Confirm Password: <input type="text"
+			name="confirm"><br /> <input type="submit" value="submit">
+	</form>
+	<script src="a10.js"></script>
+</body>
+</html>
