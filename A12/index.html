@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Explore jQuery AJAX</title>
+
+<!-- disables iphone scaling -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- main css -->
+<link href="./css/bootstrap-theme.min.css" rel="stylesheet"
+	type="text/css">
+
+<!-- media queries css -->
+<link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+<!-- html5.js for IE less than 9 -->
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+
+<body style="background-color: #fff">
+
+	<div class="container">
+		<div class="row">
+			<div style="display: none;">
+				<div id="frame1"></div>
+			</div>
+		</div>
+
+		<div class="row" style="font-size: 15px">
+			<div style="margin-top: 15px">
+				<form name="input" action="" method="get">
+					URL: <input type="text" id="urlName" name="url"><br> <input
+						type="submit" name="Submit">
+				</form>
+				<button id="countURL" type="button">Count Tags</button>
+				<br>
+				<button id="countSRC" type="button">List SRC</button>
+			</div>
+		</div>
+
+		<div class="row" style="margin-top: 15px; font-size:15px;">
+			<div class="col-md-2">
+				<p><b><u>Tag</u></b></p>
+				<p id="tagResult"></p>
+			</div>
+			<div class="col-md-2">
+				<p><b><u>Count</u></b></p>
+				<p id="countResult"></p>
+			</div>
+			<div class="col-md-8">
+			<p id="srcDoc"><b><u>List of External Scripts:</u></b></p>
+			</div>
+		</div>
+	</div>
+
+	<script src="myScript.js"></script>
+</body>
+</html>
