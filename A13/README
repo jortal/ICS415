@@ -1,0 +1,3 @@
+A13: PHP scripting
+a13.php creates a file called "comment.txt" if it does not exist
+form.php displays the contents of the file above the form and has a link to reset the comments.txt file
